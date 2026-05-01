@@ -12,3 +12,4 @@ nelmio_cors:
             allow_headers: ['Content-Type', 'Authorization', 'Accept']
             allow_methods: ['GET', 'OPTIONS', 'POST', 'PUT', 'PATCH', 'DELETE']
             max_age: 3600
+            forced_allow_origin_value: ~ # laisse NelmioCors évaluer la regex
